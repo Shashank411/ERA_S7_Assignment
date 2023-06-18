@@ -1,35 +1,10 @@
-## CODE 1: BASIC SKELETON
-[CODE](https://github.com/RaviVaishnav20/TSAI-EVA5/blob/master/Session%205%20-%20Coding%20Drill%20Down/notebooks/S5_notebook1.ipynb)
+# Session 7 Assignment
 
-### Target:
-
-Get the set-up right
-*   Set Transforms
-*   Set Data Loader
-*   Set Basic Working Code
-*   Set Basic Training  & Test Loop
-
-### Results:
-
-*   Parameters: 6.3M
-*   Best Training Accuracy: 99.99
-*   Best Test Accuracy: 99.24
-
-### Analysis:
-
-*   Extremely Heavy Model for such a problem
-*   Model is over-fitting, but we are changing our model in the next step
-
-
-
-
-## CODE 2: APPLY TECHNIQUE BATCH NORMALIZATION, REGULARIZATION, and GLOBAL AVERAGE POOLING
-[CODE](https://github.com/RaviVaishnav20/TSAI-EVA5/blob/master/Session%205%20-%20Coding%20Drill%20Down/notebooks/S5_notebook2.ipynb)
+## CODE 1: APPLY TECHNIQUE BATCH NORMALIZATION, REGULARIZATION, and GLOBAL AVERAGE POOLING to a Basic Skeleton
 
 ### Target:
 
 *   Use nn.Sequential
-*   Make model Lighter
 *   Add BatchNorm
 *   Apply dropOut on each layer
 *   Replace last 7x7 layer with GAP
@@ -41,7 +16,6 @@ Get the set-up right
 *   Best Test Accuracy: 97.78
 
 ### Analysis:
-*   Dropout works!
 *   Model is way to much lighter
 *   It seems model is under-fitting cause of very less number of parameters
 
@@ -60,11 +34,7 @@ Get the set-up right
   - Best training accuracy = 93.91
   - Best Test accuracy = 97.78%
   
-  
-  
-
-## CODE 3: INCREASE MODEL CAPACITY AND FINE TUNE MAXPOOLING POSITION
-[CODE](https://github.com/RaviVaishnav20/TSAI-EVA5/blob/master/Session%205%20-%20Coding%20Drill%20Down/notebooks/S5_notebook3.ipynb)
+## CODE 2: INCREASE MODEL CAPACITY AND FINE TUNE MAXPOOLING POSITION
 
 ### Target:
 
@@ -84,10 +54,7 @@ Get the set-up right
 *   Still model is not able to get 99.4%
 
 
-
-
-## CODE 4: APPLY IMAGE AUGMENTATION AND FINE TUNE LEARNING RATE, ADD StepLR SCHEDULER
-[CODE](https://github.com/RaviVaishnav20/TSAI-EVA5/blob/master/Session%205%20-%20Coding%20Drill%20Down/notebooks/S5_notebook4.ipynb)
+## CODE 3: APPLY IMAGE AUGMENTATION AND FINE TUNE LEARNING RATE, ADD StepLR SCHEDULER
 
 ### Target:
 
@@ -105,15 +72,3 @@ Get the set-up right
 *   Model is awesome!!!
 *   No overfittng
 *   Target achieved
-
-
-# FINAL MODEL ANALYSIS
-
-## RECEPTIVE CALCULATION
-![](https://github.com/RaviVaishnav20/TSAI-EVA5/blob/master/Session%205%20-%20Coding%20Drill%20Down/images/RF_calculation.png)
-
-## Loss and Accuracy plot
-![](https://github.com/RaviVaishnav20/TSAI-EVA5/blob/master/Session%205%20-%20Coding%20Drill%20Down/images/Loss_and_accuracy_plot.png)
-
-## Summary
-![](https://github.com/RaviVaishnav20/TSAI-EVA5/blob/master/Session%205%20-%20Coding%20Drill%20Down/images/logs.png)
