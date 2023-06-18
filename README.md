@@ -7,7 +7,7 @@
 *   Use nn.Sequential
 *   Add BatchNorm
 *   Apply dropOut on each layer
-*   Replace last 7x7 layer with GAP
+*   Use GAP in last layer
 
 ### Results:
 
